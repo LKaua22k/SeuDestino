@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+span, a{
+    color: var(--color-orange);
+}
+
+:root{
+    --color-purple: #EE24FF;
+    --color-text:#828282;
+    --color-line:#ECEFF2;
+    --color-black: #3F3D56;
+    --Font-inter:'Inter', sans-serif;
+    --Font-open:'Open Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: var(--Font-open);
+}
+
+#hero{
+    max-width:62.6rem;
+    margin: 6.4rem auto 6.4rem;
+}
+
+#hero img{
+    margin-bottom: 7.2rem;
+}
+
+#hero h1{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: var(--Font-inter);
+    margin-bottom: 3.2rem;
+}
+
+#hero p{
+    color: var(--color-text);
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+}
+
+
+#hero strong{
+    color: var(--color-black);
+}
+
+#hero h1 span{
+    font-weight: bold;
+    color: var( --color-purple);
+}
+
+
+.Links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img{
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+footer a{
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+footer a + a{
+    margin-left: 2.8rem;
+    transition: 0.3s;
+}
+
+footer a:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
